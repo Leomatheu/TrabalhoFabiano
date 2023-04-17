@@ -41,13 +41,12 @@ fun TrabalhoScreen() {
 
         Column(
             modifier = Modifier
-                .padding(30.dp),
+                .padding(31.dp),
 
             verticalArrangement = Arrangement.Top
         ) {
             Conteudo()
         }
-
     }
 }
 @Composable
