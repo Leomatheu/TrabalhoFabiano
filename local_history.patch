@@ -1,0 +1,35 @@
+Index: app/src/main/java/com/example/tarefa_tarifa/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/tarefa_tarifa/MainActivity.kt b/app/src/main/java/com/example/tarefa_tarifa/MainActivity.kt
+--- a/app/src/main/java/com/example/tarefa_tarifa/MainActivity.kt	
++++ b/app/src/main/java/com/example/tarefa_tarifa/MainActivity.kt	(date 1681769761299)
+@@ -82,7 +82,7 @@
+         text = stringResource(id = com.example.tarefa_tarifa.R.string.titulo),
+         style = MaterialTheme.typography.h4,
+         textAlign = TextAlign.Center,
+-        color = Color.Magenta,
++        color = Color.Blue,
+     )
+     Row() {
+         Text(
+@@ -139,7 +139,7 @@
+         Text(
+             text = stringResource(id = com.example.tarefa_tarifa.R.string.tarifa),
+             textAlign = TextAlign.End,
+-            color = Color.Magenta,
++            color = Color.Blue,
+             modifier = Modifier
+                 .weight(1f)
+                 .padding(8.dp)
+@@ -169,7 +169,7 @@
+         Text(
+             text = stringResource(id = com.example.tarefa_tarifa.R.string.total),
+             textAlign = TextAlign.End,
+-            color = Color.Magenta,
++            color = Color.Blue,
+             modifier = Modifier
+                 .weight(1f)
+                 .padding(8.dp)
